@@ -1,0 +1,17 @@
+.threebtn{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.twobtn{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+/* .Ask{
+} */
+.Filter{
+margin-left: 2rem;
+margin-right: 2rem;
+}

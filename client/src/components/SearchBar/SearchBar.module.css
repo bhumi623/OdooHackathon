@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  background-color: #111;
-  border: 1px solid #00ffff;
+  background-color: #FFF9E5;
+  border: 1px solid #DCD0A8;
   border-radius: 12px;
   padding: 0.6rem 1rem;
   width: 100%;
@@ -16,18 +16,18 @@
   background: transparent;
   border: none;
   outline: none;
-  color: #00ffff;
+  color: #004030;
   font-size: 1rem;
 }
 
 .icon {
-  color: #00ffff;
+  color: #004030;
 }
 
 /* Mobile tweaks */
 @media (max-width: 768px) {
   .searchBar {
-    max-width: 100%;
+    max-width: 70%;
     padding: 0.5rem 0.8rem;
   }
 

@@ -3,13 +3,14 @@
 }
 
 .card {
-  background-color: #182c4c;
-  border: 1px solid #3b82f6;
+  background-color: #DCD0A8;
+  /* border: 1px solid #4A9782; */
   border-radius: 12px;
   padding: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+  /* box-shadow: 0 0 10px rgba(59, 130, 246, 0.6); */
   color: white;
+  margin: 1rem;
 }
 
 .content {
@@ -18,25 +19,29 @@
 }
 
 .title {
-  color: #93c5fd;
+  color: #004030;
   font-size: 1.1rem;
   margin: 0;
 }
 
 .description {
-  color: #bfdbfe;
+  color: #4A9782;
   margin-top: 0.5rem;
 }
 
 .meta {
-  text-align: right;
+  text-align: center;
 }
 
 .answers {
-  color: #c7d2fe;
+  color: #4A9782;
+  padding: 0.5rem;
+  border: 1px solid #4A9782;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
 }
 
 .user {
   font-size: 0.8rem;
-  color: #60a5fa;
+  color: #004030;
 }

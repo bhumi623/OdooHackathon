@@ -15,7 +15,7 @@ const SearchBar = ({ onSearch }) => {
       <Search className={styles.icon} />
       <input
         type="text"
-        placeholder="Search by tag (e.g. anxiety, sleep)..."
+        placeholder="Search by tag (e.g. anxiety)"
         value={query}
         onChange={handleSearch}
       />

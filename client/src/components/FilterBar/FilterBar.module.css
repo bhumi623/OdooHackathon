@@ -32,9 +32,9 @@
 
 /* Dropdown for mobile */
 .mobileMenu {
-  position: absolute;
+  /* position: absolute;
   top: 2.5rem;
-  right: 0;
+  right: 0; */
   background: #111;
   border: 1px solid #00ffff;
   border-radius: 10px;

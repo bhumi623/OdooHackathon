@@ -4,18 +4,18 @@
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: bold;
-  background: linear-gradient(to right, #00ffff, #00ccff);
-  color: white;
+  background: linear-gradient(to right, #DCD0A8, #FFF9E5);
+  color: #004030;
   border: none;
   border-radius: 1rem;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  /* box-shadow: 0 0 15px rgba(0, 255, 255, 0.3); */
 }
 
 .askBtn:hover {
-  background: linear-gradient(to right, #00ccff, #00ffff);
+  background: linear-gradient(to right, #FFF9E5, #DCD0A8);
   transform: scale(1.05);
 }

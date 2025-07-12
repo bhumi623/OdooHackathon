@@ -3,14 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #101010;
-  color: white;
+  background: #004030;
+  color: #FFF9E5;
 }
 
 .siteName {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
+  color: #FFF9E5;
   text-decoration: none;
 }
 
@@ -20,7 +20,7 @@
   margin-left: 1rem;
   background: none;
   border: none;
-  color: white;
+  color: #FFF9E5;
   cursor: pointer;
   font-size: 1rem;
   transition: color 0.2s ease;
@@ -29,5 +29,5 @@
 .loginBtn:hover,
 .profileBtn:hover,
 .notificationBtn:hover {
-  color: #66ccff;
+  color: #FFF9E5;
 }

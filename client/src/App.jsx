@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/create" element={<PostForm />} />
         <Route path="/login" element={<LoginPage setIsLoggedIn={setIsLoggedIn}/>} />
         <Route path="/signup" element={<SignUpPage setIsLoggedIn={setIsLoggedIn} />} />
-        <Route path="/question/:id" element={<QuestionDetail />} />
+        <Route path="/question/:id" element={<QuestionDetail isLoggedIn={isLoggedIn} />} />
 
       </Routes>
     </Router>

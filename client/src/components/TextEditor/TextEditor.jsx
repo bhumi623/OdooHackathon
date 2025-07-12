@@ -1,9 +1,12 @@
 import React, { useRef, useState } from "react";
 import styles from "./TextEditor.module.css";
 import { useNavigate } from "react-router-dom";
-const TextEditor = () => {
+const TextEditor = ({ getContentRef }) => {
     const fileInputRef = useRef(null);
     const descriptionRef = useRef(null);
+    if (getContentRef) {
+    getContentRef.current = descriptionRef;
+  }
     const [activeFormats, setActiveFormats] = useState({
     bold: false,
     italic: false,
@@ -102,7 +105,7 @@ const TextEditor = () => {
                     ref={descriptionRef}
                     className={styles.editor}
                     contentEditable
-                    placeholder="Write your post here..."
+                    placeholder="Write here..."
                   ></div>
         </div>
     )

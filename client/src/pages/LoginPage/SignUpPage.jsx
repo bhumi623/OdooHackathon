@@ -3,6 +3,17 @@ import styles from "./LoginPage.module.css";
 import { useNavigate } from "react-router-dom";
 
 const SignUpPage = ({ setIsLoggedIn }) => {
+  const newPost = {
+  id: Date.now(),
+  title,
+  description,
+  user: localStorage.getItem("username") || "Anonymous",
+  time: new Date().toISOString(),
+  tags,
+  answers: 0,
+  answersdesc: []
+};
+
   const [form, setForm] = useState({ username: "", email: "", password: "" });
   const navigate = useNavigate();
 
@@ -12,6 +23,7 @@ const SignUpPage = ({ setIsLoggedIn }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Account created!");
+    localStorage.setItem("username", form.username);
     setIsLoggedIn(true);
     navigate("/");
   };
