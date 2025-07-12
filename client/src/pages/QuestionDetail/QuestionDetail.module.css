@@ -1,14 +1,14 @@
 .container {
   min-height: 100vh;
   padding: 2rem;
-  background-color: #0e1629;
+  background-color: #004030;
   color: white;
   font-family: sans-serif;
 }
 
 .breadcrumb {
   margin-bottom: 1.5rem;
-  color: #60a5fa;
+  color: #DCD0A8;
   font-size: 0.9rem;
 }
 
@@ -18,16 +18,17 @@
 }
 
 .questionCard {
-  background-color: #1e293b;
+  background-color: #4A9782
+;
   padding: 1.5rem;
   border-radius: 12px;
-  border: 1px solid #3b82f6;
+  border: 1px solid #DCD0A8;
   box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
   margin-bottom: 2rem;
 }
 
 .questionCard h2 {
-  color: #93c5fd;
+  color: #DCD0A8;
   margin-bottom: 0.5rem;
 }
 
@@ -41,7 +42,7 @@
   display: inline-block;
   margin-right: 1rem;
   font-size: 0.85rem;
-  color: #60a5fa;
+  color: #DCD0A8;
 }
 
 .answersSection {
@@ -54,11 +55,11 @@
 }
 
 .answerCard {
-  background-color: #1e293b;
+  background-color: #4A9782;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 10px;
-  border: 1px solid #334155;
+  border: 1px solid #DCD0A8;
   display: flex;
   align-items: flex-start;
   gap: 1rem;

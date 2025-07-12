@@ -14,7 +14,7 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn  }) => {
   return (
     <nav className={styles.navbar}>
       <div>
-        <Link to="/" className={styles.siteName}>MySite</Link>
+        <Link to="/" className={styles.siteName}>FeelFree</Link>
       </div>
 
       <div>
