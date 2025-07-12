@@ -1,0 +1,66 @@
+.filterBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+/* Desktop dropdown */
+.desktopDropdown {
+  display: block;
+}
+
+.desktopDropdown select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #00ffff;
+  background: #111;
+  color: #00ffff;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Mobile hamburger */
+.mobileHamburger {
+  display: none;
+  position: relative;
+}
+
+.menuIcon {
+  color: #00ffff;
+  cursor: pointer;
+}
+
+/* Dropdown for mobile */
+.mobileMenu {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  background: #111;
+  border: 1px solid #00ffff;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.mobileItem {
+  padding: 0.7rem 1.2rem;
+  border-bottom: 1px solid #00ffff33;
+  color: #00ffff;
+  cursor: pointer;
+  background: #111;
+}
+
+.mobileItem:hover,
+.mobileItem.active {
+  background-color: #00ffff22;
+}
+
+/* Responsive rules */
+@media (max-width: 768px) {
+  .desktopDropdown {
+    display: none;
+  }
+  .mobileHamburger {
+    display: block;
+  }
+}

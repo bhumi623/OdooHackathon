@@ -1,0 +1,37 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: #111;
+  border: 1px solid #00ffff;
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.searchBar input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #00ffff;
+  font-size: 1rem;
+}
+
+.icon {
+  color: #00ffff;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .searchBar {
+    max-width: 100%;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .searchBar input {
+    font-size: 0.95rem;
+  }
+}

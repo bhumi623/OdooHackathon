@@ -12,9 +12,9 @@ const LoginPage = ({ setIsLoggedIn }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Signed In! 🎉");
-    setIsLoggedIn(true); // ✅ update login state
-    navigate("/");        // ✅ go back to Home
+    alert("Signed In!");
+    setIsLoggedIn(true); 
+    navigate("/");       
     setForm({ email: "", password: "" });
   };
 

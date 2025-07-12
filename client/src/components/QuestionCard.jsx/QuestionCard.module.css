@@ -1,0 +1,42 @@
+.link {
+  text-decoration: none;
+}
+
+.card {
+  background-color: #182c4c;
+  border: 1px solid #3b82f6;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: #93c5fd;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.description {
+  color: #bfdbfe;
+  margin-top: 0.5rem;
+}
+
+.meta {
+  text-align: right;
+}
+
+.answers {
+  color: #c7d2fe;
+}
+
+.user {
+  font-size: 0.8rem;
+  color: #60a5fa;
+}

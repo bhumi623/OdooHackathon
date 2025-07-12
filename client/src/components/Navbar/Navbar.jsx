@@ -6,9 +6,9 @@ import { useNavigate } from "react-router-dom";
 const Navbar = ({ isLoggedIn, setIsLoggedIn  }) => {
   const navigate = useNavigate();
     const handleLogout = () => {
-    setIsLoggedIn(false);             // Clear React state
-    localStorage.removeItem("user");  // Clear persisted login
-    navigate("/");                    // Go to home
+    setIsLoggedIn(false);             
+    localStorage.removeItem("user");  
+    navigate("/");                    
   };
 
   return (

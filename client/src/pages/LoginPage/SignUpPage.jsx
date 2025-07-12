@@ -11,7 +11,7 @@ const SignUpPage = ({ setIsLoggedIn }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Account created! 🎉");
+    alert("Account created!");
     setIsLoggedIn(true);
     navigate("/");
   };
