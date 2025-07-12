@@ -1,0 +1,118 @@
+.postForm {
+  max-width: 720px;
+  margin: auto;
+  background: #0f0f0f;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.postForm h2 {
+  text-align: center;
+  color: #00ffff;
+  margin-bottom: 1.5rem;
+}
+
+.postForm input[type="text"] {
+  padding: 0.8rem;
+  background: #1a1a1a;
+  border: 1px solid #00ffff;
+  border-radius: 0.5rem;
+  color: white;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.toolbar button {
+  background: #222;
+  border: none;
+  border-radius: 6px;
+  color: #0ff;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.toolbar button:hover {
+  background: #00ffff44;
+}
+
+.editor {
+  background: #1c1c1c;
+  border: 1px solid #00ffff;
+  border-radius: 0.75rem;
+  min-height: 150px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  outline: none;
+}
+
+.tagInputContainer input {
+  padding: 0.6rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #00ffff;
+  background: #111;
+  color: white;
+}
+
+.tags {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #0ff3;
+  padding: 0.4rem 0.75rem;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.tag button {
+  background: none;
+  border: none;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: red;
+}
+
+button[type="submit"] {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #00ffff, #00ccff);
+  border: none;
+  color: black;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(to right, #00ccff, #00ffff);
+}
+
+
+.activeBtn {
+  background: #00ffff33 !important;
+  border: 1px solid #00ffff !important;
+  color: white;
+}
+

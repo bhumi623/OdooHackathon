@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import SignUpPage from "./pages/LoginPage/SignUpPage.jsx";
 import PostForm from './pages/PostForm/PostForm.jsx'; 
 import Home from './pages/Home/Home.jsx';
-
+import QuestionDetail from './pages/QuestionDetail/QuestionDetail.jsx';
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(() => {
     return localStorage.getItem("user") === "true";
@@ -22,6 +22,8 @@ const App = () => {
         <Route path="/create" element={<PostForm />} />
         <Route path="/login" element={<LoginPage setIsLoggedIn={setIsLoggedIn}/>} />
         <Route path="/signup" element={<SignUpPage setIsLoggedIn={setIsLoggedIn} />} />
+        <Route path="/question/:id" element={<QuestionDetail />} />
+
       </Routes>
     </Router>
   );

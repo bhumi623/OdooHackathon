@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import styles from "./PostForm.module.css";
 import { useNavigate } from "react-router-dom";
+import TextEditor from "../../components/TextEditor/TextEditor.jsx"
 
 const PostForm = () => {
   const navigate = useNavigate();
@@ -10,16 +11,16 @@ const PostForm = () => {
   const [tags, setTags] = useState([]);
   const [tagInput, setTagInput] = useState("");
 
-  const fileInputRef = useRef(null);
+//   const fileInputRef = useRef(null);
 
-  const [activeFormats, setActiveFormats] = useState({
-    bold: false,
-    italic: false,
-    strikeThrough: false,
-    justifyLeft: false,
-    justifyCenter: false,
-    justifyRight: false,
-  });
+//   const [activeFormats, setActiveFormats] = useState({
+//     bold: false,
+//     italic: false,
+//     strikeThrough: false,
+//     justifyLeft: false,
+//     justifyCenter: false,
+//     justifyRight: false,
+//   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -35,29 +36,29 @@ const PostForm = () => {
     navigate("/");
   };
 
-  const toggleFormat = (command) => {
-    document.execCommand(command, false, null);
-    setActiveFormats((prev) => ({
-      ...prev,
-      [command]: !prev[command],
-    }));
-  };
+//   const toggleFormat = (command) => {
+//     document.execCommand(command, false, null);
+//     setActiveFormats((prev) => ({
+//       ...prev,
+//       [command]: !prev[command],
+//     }));
+//   };
 
 
-  const handleLink = () => {
-    const url = prompt("Enter URL:");
-    if (url) document.execCommand("createLink", false, url);
-  };
+//   const handleLink = () => {
+//     const url = prompt("Enter URL:");
+//     if (url) document.execCommand("createLink", false, url);
+//   };
 
-  const handleImageUpload = (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      document.execCommand("insertImage", false, e.target.result);
-    };
-    reader.readAsDataURL(file);
-  };
+//   const handleImageUpload = (e) => {
+//     const file = e.target.files[0];
+//     if (!file) return;
+//     const reader = new FileReader();
+//     reader.onload = (e) => {
+//       document.execCommand("insertImage", false, e.target.result);
+//     };
+//     reader.readAsDataURL(file);
+//   };
 
   const handleTagKeyDown = (e) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -86,8 +87,9 @@ const PostForm = () => {
         placeholder="Enter your headline..."
         required
       />
+      <TextEditor/>
 
-      <label>Description</label>
+      {/* <label>Description</label>
       <div className={styles.toolbar}>
         <button
           type="button"
@@ -153,7 +155,7 @@ const PostForm = () => {
         className={styles.editor}
         contentEditable
         placeholder="Write your post here..."
-      ></div>
+      ></div> */}
 
       <label>Tags</label>
       <div className={styles.tagInputContainer}>

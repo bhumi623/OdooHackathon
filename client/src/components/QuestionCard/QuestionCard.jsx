@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./QuestionCard.module.css";
 import { Link } from "react-router-dom";
 
+
 const QuestionCard = ({ question }) => (
   <Link to={`/question/${question.id}`} className={styles.link}>
     <div className={styles.card}>
