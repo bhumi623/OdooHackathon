@@ -12,9 +12,9 @@
 
 .desktopDropdown select {
   padding: 0.5rem 1rem;
-  border: 1px solid #00ffff;
-  background: #111;
-  color: #00ffff;
+  /* border: 1px solid #00ffff; */
+  background: #FFF9E5;
+  color: #004030;
   border-radius: 8px;
   font-size: 1rem;
 }
@@ -26,7 +26,7 @@
 }
 
 .menuIcon {
-  color: #00ffff;
+  color: #FFF9E5;
   cursor: pointer;
 }
 
@@ -36,7 +36,7 @@
   top: 2.5rem;
   right: 0; */
   background: #111;
-  border: 1px solid #00ffff;
+  border: 1px solid #004030;
   border-radius: 10px;
   overflow: hidden;
   z-index: 1000;
@@ -44,15 +44,15 @@
 
 .mobileItem {
   padding: 0.7rem 1.2rem;
-  border-bottom: 1px solid #00ffff33;
-  color: #00ffff;
+  border-bottom: 1px solid #004030;
+  color: #004030;
   cursor: pointer;
   background: #111;
 }
 
 .mobileItem:hover,
 .mobileItem.active {
-  background-color: #00ffff22;
+  background-color: #004030;
 }
 
 /* Responsive rules */
