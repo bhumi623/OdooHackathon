@@ -1,10 +1,10 @@
 .postForm {
   max-width: 720px;
   margin: auto;
-  background: #0f0f0f;
+  background: #004030;
   padding: 2rem;
   border-radius: 1.25rem;
-  color: white;
+  color: #FFF9E5;
   font-family: 'Poppins', sans-serif;
   box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
   backdrop-filter: blur(10px);
@@ -12,16 +12,16 @@
 
 .postForm h2 {
   text-align: center;
-  color: #00ffff;
+  color: #FFF9E5;
   margin-bottom: 1.5rem;
 }
 
 .postForm input[type="text"] {
   padding: 0.8rem;
   background: #1a1a1a;
-  border: 1px solid #00ffff;
+  border: 1px solid #FFF9E5;
   border-radius: 0.5rem;
-  color: white;
+  color: FFF9E5;
   width: 100%;
   margin-bottom: 1rem;
 }
@@ -37,7 +37,7 @@
   background: #222;
   border: none;
   border-radius: 6px;
-  color: #0ff;
+  color: #FFF9E5;
   padding: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
@@ -50,12 +50,12 @@
 
 .editor {
   background: #1c1c1c;
-  border: 1px solid #00ffff;
+  border: 1px solid #FFF9E5;
   border-radius: 0.75rem;
   min-height: 150px;
   padding: 1rem;
   margin-bottom: 1rem;
-  color: white;
+  color: FFF9E5;
   outline: none;
 }
 
@@ -63,9 +63,9 @@
   padding: 0.6rem;
   width: 100%;
   border-radius: 0.5rem;
-  border: 1px solid #00ffff;
+  border: 1px solid #FFF9E5;
   background: #111;
-  color: white;
+  color: FFF9E5;
 }
 
 .tags {
@@ -97,7 +97,7 @@ button[type="submit"] {
   padding: 0.8rem;
   font-size: 1rem;
   font-weight: bold;
-  background: linear-gradient(to right, #00ffff, #00ccff);
+  background: linear-gradient(to right, #FFF9E5, #DCD0A8);
   border: none;
   color: black;
   border-radius: 1rem;
@@ -106,13 +106,13 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background: linear-gradient(to right, #00ccff, #00ffff);
+  background: linear-gradient(to right, #FFF9E5, #DCD0A8);
 }
 
 
 .activeBtn {
-  background: #00ffff33 !important;
-  border: 1px solid #00ffff !important;
+  background: #DCD0A8 !important;
+  border: 1px solid #FFF9E5!important;
   color: white;
 }
 
